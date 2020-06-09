@@ -11,7 +11,7 @@ def find_even_values(src)
 
      while inner_array_counter < src[outer_array_counter].length do
         if src[outer_array_counter][inner_array_counter].even?
-				puts even_values.push(src[outer_array_counter][inner_array_counter])
+				puts src[outer_array_counter][inner_array_counter]
 				end
      inner_array_counter += 1
     end
